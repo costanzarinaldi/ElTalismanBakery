@@ -1,0 +1,417 @@
+body {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    display: flex;
+    font-family: "Great Vibes";
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.responsivee {
+    display: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+.eltalisman {
+    font-size: 20px;
+    margin-top: 3vh;
+    margin-right: 4vh;
+}
+
+.lista-uno {
+    font-family: "Poppins";
+    background-color: transparent; 
+    display: flex;
+    margin-top: 3vh;
+}
+
+.lista-uno a {
+    background-color: transparent;
+    color: black;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 7vh;
+}
+
+.titular {
+    text-align: left;
+    margin-top: 2vh;
+    margin-left: 8vh;
+    padding: 0px;   
+}
+
+.talisman {
+    font-family: "Poppins";
+    margin-top: 5vh;
+    padding: 0px;
+    margin-left: 8vh;
+
+}
+
+.img1 {
+    width: 15%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .9rem;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+header {
+    background: url(pink1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    margin-bottom: 0vh;
+    padding: 0px;
+}
+ 
+h3 {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 80px;
+    font-weight: normal;
+}
+
+h4 {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+h5 {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+h6 {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.Dulce {
+    width: 550px;
+    margin: auto;
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 5vh;
+}
+
+.Personalizados {
+    width: 550px;
+    margin: auto;
+    text-align: center;
+
+}
+
+h5 {
+    margin-bottom: 5vh;
+}
+
+.Nosotros {
+    margin-left: 15vh;
+}
+
+.Salado {
+    width: 550px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.separator {
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(245, 137, 227, 0.753);
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1;
+}
+
+.medios {
+    margin-left: 15vh;
+    margin-bottom: 10vh;
+}
+
+.redes {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.redes1 {
+    text-align: center;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 7vh;
+}
+
+.fb {
+    size: 5px;
+}
+
+.ig {
+    size: 5px;
+}
+
+
+@media (max-width: 800px) {
+    .Dulce {
+        width: 350px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .Personalizados {
+        width: 350px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .Salado {
+        width: 350px;
+        margin: auto;
+        text-align: center;
+    }
+
+    li {
+        margin-right: 2vh;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 15px;
+        margin-top: 3vh;
+        margin-right: 4vh;
+    }
+
+    .eltalisman {
+        font-size: 20px;
+        margin-top: 3vh;
+        margin-right: 4vh;
+    }
+
+    .titular {
+        margin-left: 4vh;
+    }
+
+    .img1 {
+        width: 40%;
+    }
+
+    header {
+        height: 650px;
+    }
+    
+    .talisman {
+        margin-top: 0vh;
+        padding: 0px;
+        margin-left: 4vh;
+    }
+
+    h1 {
+        font-size: 41px;
+    
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        margin-top: 3vh;
+        text-align: center;
+        font-size: 28px;
+        width: 25%;
+        font-weight: normal;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h4 {
+        margin-top: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 28px;
+        width: 25%;
+        font-weight: normal;
+    }
+
+    h5 {
+        margin-top: 3vh;
+        text-align: center;
+        font-size: 28px;
+        width: 25%;
+        font-weight: normal;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h6 {
+        margin-top: 7vh;
+        text-align: center;
+        font-size: 28px;
+        width: 25%;
+        font-weight: normal;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2vh;
+    }
+
+    .Nosotros {
+        margin-top: 0vh;
+        margin-left: 5vh;
+    }
+
+    .separator {
+        margin-top: 5vh;
+        font-size: 12px;
+    }
+
+    .medios {
+        margin-left: 5vh;
+        margin-bottom: 7vh;
+    }
+
+    .whatsapp {
+        bottom: 90px;
+    }
+
+    .redes1 {
+        width: 100%;
+        margin-bottom: 15vh;
+    }
+
+    nav {
+        background-color: #fdc6e2;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50px;
+        display: none;
+    }
+
+    .lista-uno {
+        flex-direction: column;
+        padding: 0;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;   
+    }
+    .responsivee {
+        display: block;
+        margin-top: 3vh;
+        width: 10%;
+        height: 10%;
+    }
+
+}
+
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .responsivee {
+        margin-top: 3vh;
+        width: 8%;
+        display: block;
+    }
+
+    .lista-uno {
+        display: block;
+    }
+
+    .eltalisman {
+        font-size: 25px;
+        margin-top: 5vh;
+    }
+
+    nav {
+        top: 80px;
+    }
+
+    .img1 {
+        width: 27%;
+    }
+
+    h1 {
+        margin-top: 3vh;
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .h3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .h4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .h5 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .h6 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
